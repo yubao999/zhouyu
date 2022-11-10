@@ -1,0 +1,16 @@
+<!--pages/cart/cart.wxml-->
+<!-- 轮播图 -->
+<swiper indicator-dots="{{true}}" interval="1000" 	autoplay="{{true}}"	indicator-color="#f00" 	indicator-active-color="#f0f">
+  <swiper-item>1111</swiper-item>
+  <swiper-item>22</swiper-item>
+  <swiper-item>33</swiper-item>
+</swiper>
+
+<!-- view -->
+<view class="box" hover-class="boxact">我是view组件</view>
+<view class="box" hover-class="boxact">我是view组件</view>
+
+<icon type="info" color="red" size="90px"></icon>
+
+<text>text组件</text><text>text组件</text>
+<rich-text nodes="<a href='#'>hello</a>"></rich-text>

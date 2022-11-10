@@ -1,0 +1,67 @@
+<!--pages/my/my.wxml-->
+<view>
+{{msg}}
+</view>
+
+<view>
+{{msg+'123'}}
+</view>
+
+<view>
+{{num}}
+</view>
+
+<view>
+{{num+9}}
+</view>
+
+<view>
+{{flag?'true':'false'}}
+</view>
+
+<view>
+{{arr}}
+</view>
+
+<view>{{arr[0]}}</view>
+
+<view>{{obj.name}}</view>
+
+<view>
+{{price}}
+</view>
+
+<image src="https://img01.yzcdn.cn/vant{{url}}"></image>
+
+<!-- ------------------------- -->
+
+
+
+<view wx:if="{{flag}}">flag为true显示</view>
+
+
+<view wx:if="{{isShow}}">登录</view>
+<view wx:else="">注册</view>
+
+
+{{num1}}
+<view wx:if="{{num1>6}}">1</view>
+<view wx:elif="{{num1>2}}">2</view>
+<view wx:else>3</view>
+
+<!-- wx:for -->
+
+
+
+<view wx:for="{{arr}}" wx:key="index">{{item}}</view>
+
+<view wx:for="{{arr}}" wx:key="*this">{{item}}</view>
+
+<view wx:for="{{arr}}" wx:for-item="ite" wx:for-index="i" wx:key="i">
+{{ite}}
+</view>
+
+
+
+
+

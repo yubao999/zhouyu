@@ -1,0 +1,9 @@
+/* pages/cart/cart.wxss */
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+.boxact{
+  background-color: red;
+}

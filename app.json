@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/cart/cart",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/tap/tap",
+    "pages/cate/cate"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "上庄校区",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#f00",
+    "selectedColor": "#f0f",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "./assets/images/tabs/home.png",
+        "selectedIconPath": "./assets/images/tabs/home-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "./assets/images/tabs/contact.png",
+        "selectedIconPath": "./assets/images/tabs/contact-active.png"
+      },
+      {
+        "text": "日志",
+        "pagePath": "pages/logs/logs",
+        "iconPath": "./assets/images/tabs/message.png",
+        "selectedIconPath": "./assets/images/tabs/message-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "./assets/images/tabs/contact.png",
+        "selectedIconPath": "./assets/images/tabs/contact-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

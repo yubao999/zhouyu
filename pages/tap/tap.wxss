@@ -1,0 +1,7 @@
+/* pages/tap/tap.wxss */
+
+.box{
+  width: 600px;
+  height: 100px;
+  background-color: yellow;
+}

@@ -1,0 +1,43 @@
+<!--pages/cate/cate.wxml-->
+<button bindtap="toggleBox">切换</button>
+<view class="box" wx:if="{{isShow}}">
+
+</view>
+
+
+<view>{{num}}</view>
+
+<button type="primary" bindtap="reduceNum">num+</button>
+<button type="primary" bindtap="plusNum">num-</button>
+<view class="box" wx:if="{{num>10}}">
+
+</view>
+
+<!-- 选项卡 -->
+
+<view class="tablist">
+   <view class="head">
+      <text>选项一</text>
+      <text>选项二</text>
+      <text>选项三</text>
+   </view>
+   <view wx:if="{{step===1}}">
+   1
+   </view>
+   <view wx:if="{{step===2}}">
+   2
+   </view>
+   <view wx:if="{{step===3}}">
+   3
+   </view>
+</view>
+
+<view>username的值为{{username}}</view>
+
+<!-- 文本框双向数据绑定
+data中定义username
+给input的value属性绑定username
+给input组件绑定input事件 给username赋值  e.detail.value
+ -->
+
+<input value="{{username}}" bindinput="changUsername" placeholder="输入内容" />

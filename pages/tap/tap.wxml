@@ -1,0 +1,17 @@
+<!--pages/tap/tap.wxml-->
+
+<!-- bindtap 给button组件绑定点击事件 -->
+<button type="warn" bindtap="tapName">点击事件</button>
+
+<button type="default" bindtap="clickEvent">点击--事件对象</button>
+
+
+<view class="box" bindtap="clickEvent">
+  <button id="ww">按钮</button>
+</view>
+
+{{count}}
+<button data-i="34" data-n="{{12}}" bindtap="changCount">count+n</button>
+
+
+<input bindinput="changInput"/>
